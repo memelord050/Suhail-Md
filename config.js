@@ -3,14 +3,14 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '923184474176';
+global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '0712155147';
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Suhail:suhail@cluster0.rzhkoqf.mongodb.net/?retryWrites=true&w=majority" ;
 global.port= false // Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000  ; 
 global.audio = '' ; 
 global.video = '' ;
 global.blockJids = process.env.BLOCK_JID ||'120363023983262391@g.us' ;
 global.allowJids = process.env.ALLOW_JID ||'120363022922797633@g.us' ;
-global.email = 'samsamsun789@gmail.com' ;
+global.email = 'em5092002@gmail.com' ;
 global.location = 'Lahore Pakistan' ;
 global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi'
 global.gurl = 'https://youtube.com/c/SuhailTechInfo' ; // add your username
