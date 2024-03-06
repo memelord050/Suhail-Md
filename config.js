@@ -21,18 +21,18 @@ global.scan  = process.env.QR_URL || 'https://replit.com/@SuhailTechInfo/Suhail-
 global.website = 'https://github.com/SuhailTechInfo/Suhail-Md' ; //wa.me/+923000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/NpA3ZsJ.jpeg' ;
 module.exports = {
-  sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
-  botname: process.env.BOT_NAME || 'sᴜʜᴀɪʟ-ᴍᴅ',
+  sessionName: process.env.SESSION_ID || "SESSION_08_48_03_06_NotifiedAnkles",      //Put Your Session Id Here
+  botname: process.env.BOT_NAME || 'MEMELORD-ᴍᴅ',
   botbgm: process.env.BOT_BGM || 'false',
   ownername:  process.env.OWNER_NAME || `It'x Suhail`,
   author:  process.env.PACK_AUTHER || '',
   errorChat : process.env.ERROR_CHAT|| '', // put 'chat' here to send error in chat ,where it accures
-  read_status : process.env.AUTO_READ_STATUS || 'false',
+  read_status : process.env.AUTO_READ_STATUS || 'true',
   save_status : process.env.AUTO_SAVE_STATUS || 'false',
   packname:  process.env.PACK_NAME || "\t   𓅋 ₊₉₂⃗⃗₃₁᩺₈ͦ₄ͪ₄ᷧ₇ͥ₄ᷞ₁⃗₇₆ 𓃮 \n\nᴋɪss ʍᴇ...💋\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ вσт нᴇʀᴇ ---" ,
-  autoreaction: process.env.AUTO_REACTION || 'false',  //  | 'cmd' | 'true' | 'all' |
+  autoreaction: process.env.AUTO_REACTION || 'true',  //  | 'cmd' | 'true' | 'all' |
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokeyuntillYouPutAnWordHere',
-  alwaysonline: process.env.WAPRESENCE || '', // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
+  alwaysonline: process.env.WAPRESENCE || 'available', // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
   antifake : 'null', // process.env.FAKE_COUNTRY_CODE ||'212',
   readmessage: process.env.READ_MESSAGE || 'false',   //  | 'false' | 'true' | 
   readcmds : process.env.READ_COMMANDS || 'false',    //  | 'false' | 'true' | 
@@ -48,7 +48,7 @@ module.exports = {
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
-  caption :process.env.CAPTION || "```ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ```",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption :process.env.CAPTION || "```ᴘᴏᴡᴇʀᴇᴅ ʙʏ MEMELORD²²¹-ᴍᴅ```",   //*『sᴜʙsᴄʀɪʙᴇ • Eliam Tech』*\n youtube.com/@Eliam Tech-vv2ne"),
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,
   VERSION: process.env.VERSION || 'v.1.2.2',
   LANG: process.env.THEME ? process.env.THEME.toUpperCase() : 'SUHAIL',
