@@ -11,12 +11,12 @@ global.video = '' ;
 global.blockJids = process.env.BLOCK_JID ||'120363023983262391@g.us' ;
 global.allowJids = process.env.ALLOW_JID ||'120363022922797633@g.us' ;
 global.email = 'em5092002@gmail.com' ;
-global.location = 'Lahore Pakistan' ;
-global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi'
-global.gurl = 'https://youtube.com/c/SuhailTechInfo' ; // add your username
+global.location = 'Kenyan' ;
+global.timezone  = process.env.TIME_ZONE || 'Kenya/Nairobi'
+global.gurl = 'https://youtube.com/c/Elian Tech-vv2ne' ; // add your username
 global.sudo =  process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : '923184474176'; ;
 global.devs = "923184474176"; //Dont change it From here
-global.github  = process.env.YOUR_GITHUB || 'https://github.com/SuhailTechInfo/Suhail-Md';
+global.github  = process.env.YOUR_GITHUB || 'https://github.com/memelord050/Memelord-md';
 global.scan  = process.env.QR_URL || 'https://replit.com/@SuhailTechInfo/Suhail-Md?v=1';
 global.website = 'https://github.com/SuhailTechInfo/Suhail-Md' ; //wa.me/+923000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/NpA3ZsJ.jpeg' ;
