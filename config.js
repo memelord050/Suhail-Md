@@ -21,7 +21,7 @@ global.scan  = process.env.QR_URL || 'https://replit.com/@SuhailTechInfo/Suhail-
 global.website = 'https://github.com/SuhailTechInfo/Suhail-Md' ; //wa.me/+923000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/NpA3ZsJ.jpeg' ;
 module.exports = {
-  sessionName: process.env.SESSION_ID || "SESSION_08_48_03_06_NotifiedAnkles",      //Put Your Session Id Here
+  sessionName: process.env.SESSION_ID || "SESSION_08_48_03_06_ChaserBellies",      //Put Your Session Id Here
   botname: process.env.BOT_NAME || 'MEMELORD-ᴍᴅ',
   botbgm: process.env.BOT_BGM || 'false',
   ownername:  process.env.OWNER_NAME || `It'x Suhail`,
@@ -37,7 +37,7 @@ module.exports = {
   readmessage: process.env.READ_MESSAGE || 'false',   //  | 'false' | 'true' | 
   readcmds : process.env.READ_COMMANDS || 'false',    //  | 'false' | 'true' | 
   HANDLERS: process.env.PREFIX || ',',
-  warncount : process.env.WARN_COUNT || 3,
+  warncount : process.env.WARN_COUNT || 3000,
   disablepm: process.env.DISABLE_PM || "false",   
   MsgsInLog:process.env.MSGS_IN_LOG ||'false',
   pmMsgsInLog:process.env.PM_MSGS_IN_LOGS ||'false',
